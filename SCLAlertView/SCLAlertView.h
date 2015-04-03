@@ -174,6 +174,12 @@ typedef NS_ENUM(NSInteger, SCLAlertViewBackground)
  */
 - (instancetype)initWithNewWindow;
 
+/** Initialize SCLAlertView using a growing factor.
+ *
+ * Init with new window with factor
+ */
+- (instancetype)initWithFactor:(CGFloat)factor;
+
 /** Warns that alerts is gone
  *
  * Warns that alerts is gone using block
